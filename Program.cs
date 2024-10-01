@@ -10,11 +10,11 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите длину основания a трапеции: ");
+            Console.Write("Введите длину первого основания трапеции: ");
             double a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите длину основания b трапеции: ");
+            Console.Write("Введите длину второго основания трапеции: ");
             double b = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите высоту h трапеции: ");
+            Console.Write("Введите высоту трапеции: ");
             double h = Convert.ToDouble(Console.ReadLine());
             double S = Math.Abs(a + b) * h / 2 ;
             Console.WriteLine("Площадь трапеции: {0:0.00}", S);
