@@ -21,7 +21,7 @@ namespace ConsoleApp4
             int number2 = Math.Abs(user_input / 100 % 10);
             int number3 = Math.Abs(user_input / 10 % 10);
 
-            Console.WriteLine("Произведение цифр числа: " + number1 * number2 * number3 * number4);
+            Console.WriteLine("Произведение цифр данного числа: " + number1 * number2 * number3 * number4);
 
             Console.ReadLine();
         }
